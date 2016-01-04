@@ -1,0 +1,109 @@
+/*!
+ * Start Bootstrap - Full HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+     /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+   width: 100%;
+}
+body a:hover {
+    color: #fff;
+}
+
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+nav.navbar.navbar-default {
+    margin-top: 15px;
+}
+section.banner {
+    position: relative;
+    z-index: -1;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-right: 3em;
+}
+ul.nav.navbar-nav.navbar-right li {
+    margin-right: 3em;
+    text-transform: uppercase;
+}
+ul.nav.navbar-nav.navbar-right li.active a {
+    background-color: rgb(255,75,90);
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1em;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+navbar-brand {
+    color: #fff;
+}
+.navbar-header a.navbar-brand:hover {
+    color: #fff;
+    z-index: 202;
+}
+ul.nav.navbar-nav li a {
+    color: #fff;
+}
+ul.nav.navbar-nav li a:hover {
+    color: #fff;
+}
+div.layergrey {
+    background-color: rgba(56,64,75,0.8);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index:1;
+    width: 100%;
+}
+div.layerblue {
+    background-color: rgba(65,158,221,0.7);
+    width: 200px;
+    position: absolute;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+.heroimg {position: relative;}
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-family: 'Yellowtail';
+    font-size: 2em;
+    letter-spacing: -1px;
+}
+.carousel-caption {
+    right: 20%;
+    left: 10%;
+    padding-bottom: 30px;
+    top: 15%;
+    position: relative;
+    font-family: 'Poiret One', cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.carousel-caption img.img-responsive {
+    height: 480px;
+    position: absolute;
+    top:0;
+    left:10%;
+}
+
+.carousel-caption h2 {
+    position: absolute;
+    top: 0;
+    left: 32%;
+}
