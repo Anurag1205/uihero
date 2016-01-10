@@ -7,11 +7,61 @@
 body {
      /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
    width: 100%;
+    background: #f2f2f2;
 }
 body a:hover {
     color: #fff;
 }
+.bg-color {
+    background-color: rgb(255,75,90);
+    color: #fff;
+    }
+.orange-color {
+    color: rgb(255,75,90);
+    }
+.bg-grey {
+    background: #38404a;
+    padding: 30px;
+}
+body p {
+    font-size: 18px;
+    
+}
+.text-title {
+    font-weight: 700;
+    
+}
+.grey-title {
+    color: #66837e;
+    }
+.green-color {
+    color: #1fab5a;
+    }
+.btn-color-green {
+    background-color:#1fab5a;
+    color: #fff;
+    
+    }
+.margin-top-gap {
+    margin-top: 3em;
+    }
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #CCC;
+}
 
+section.container-wrapper.mobile ul li {
+    line-height: 4em;
+    font-size: 16px;
+    color: #66837e;
+    
+}
+section.container-wrapper.mobile ul {
+    
+    list-style-image: url('../image/tick.png');
+}
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .navbar-default {
@@ -78,7 +128,8 @@ div.layerblue {
     z-index: 1;
     width: 100%;
 }
-.heroimg {position: relative;}
+.heroimg {position: relative;
+}
 .navbar-default .navbar-brand {
     color: #fff;
     font-family: 'Yellowtail';
@@ -86,14 +137,15 @@ div.layerblue {
     letter-spacing: -1px;
 }
 .carousel-caption {
-    right: 20%;
-    left: 10%;
+    right: 0;
+    left: 0;
     padding-bottom: 30px;
     top: 15%;
     position: relative;
     font-family: 'Poiret One', cursive;
     font-size: 40px;
     letter-spacing: 3px;
+    margin: 0 auto;
 }
 .carousel-caption img.img-responsive {
     height: 480px;
@@ -101,9 +153,199 @@ div.layerblue {
     top:0;
     left:10%;
 }
-
-.carousel-caption h2 {
+section.content-top {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+section.content-top p {
+    width: 59%;
+    font-size: 18px;
+}
+.row.auth-detail {
+    width: 47%;
+    margin: 0 auto;
+    margin-top: 4em;
+    text-align: center;
+}
+img.img-circle.test-img {
+    height: 145px;
+    float: right;
+}
+section.testimonial {
+    background: #edebeb;
+    padding-bottom: 5em;
+}
+section.container-wrapper.mobile {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+section.container-wrapper.mobile h4 {
+    color: #4c5662;
+    font-size: initial;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    font-size: 14px;
+}
+section.container-wrapper.mobile p {
+    color: #4c5662;
+    font-size: 14px;
+}
+section.container-wrapper.clients {
+    background: #fff;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+section.container-wrapper.clients h1 {
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+section.container-wrapper.clients h4 {
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: #938F8F;
+}
+section.container-wrapper.clients .row {
+    margin-top: 8em;
+}
+.col-md-3.price-col {
+    text-align: center;
+    border: 1px solid #8B8B8B;
+    margin-right: 30px;
+    padding: 15px;
+}
+section.container-wrapper.pricing {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+section.container-wrapper.pricing .row {
+    margin-top: 9em;
+}
+.col-md-3.price-col h3 {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+    color: #8D8C8C;
+    font-size: 24px;
+}
+.col-md-3.price-col ul li {
+    line-height: 3em;
+    list-style: none;
+    font-size: 19px;
+    margin-right: 29px;
+    color: #8D8C8C;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.row.icon {
+    text-align: right;
+    margin-right: 37px;
+    font-size: 25px;
+}
+section.container-wrapper.work {
+    background: #fff;
+    padding-top: 6em;
+    padding-bottom: 5em;
+}
+.row.no-gutter .col-md-4 img.img-responsive {
+    height: 241px;
+    width: 100%;
+}
+.row.no-gutter {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5em;
+}
+.row.no-gutter .col-md-4 img.img-responsive:after {
+    content: '\A';
     position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+row.no-gutter .col-md-4 img.im-responsive:hover:after {
+    opacity: 1;
+}
+section.container-wrapper.twitter{
+    padding-top: 6em;
+    padding-bottom: 5em;
+    background: url('../image/twitter-bg.png');
+    background-size: 100%;
+    background-size: cover;
+    color: #fff;
+    background-position-x: 0em;
+    background-position-y: 54em;
+    z-index: -1;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
     top: 0;
-    left: 32%;
+}
+@media screen and (min-width: 768px) {
+    .carousel-caption p {
+    float: left;
+    margin-left: 3em;
+    font-size: 16px;
+    }
+    .carousel-caption h2 {
+       text-align: left;
+        font-size: 32px;
+        margin-left: 1.5em;
+    }
+    .carousel-caption .row {
+        width: 80%;
+        margin: 0 auto;
+   }
+    .carousel-caption .row {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .carousel-caption ul {
+        display: block;
+        margin-top: 70px;
+    }
+    .carousel-caption ul li {
+        font-size: 18px;
+        text-align: left;
+        margin-left: 30px;
+        color: rgb(255,75,90);
+        line-height: 3em;
+    }
+    .carousel-caption ul li span {
+        color: #fff;
+    }
+    h2.letter-gap {
+    letter-spacing: 6px;
+    margin-top: 2em;
+    }
+    section.content-top img.img-responsive {
+    height: 300px;
+    float: right;
+    margin-right: 67px;
+    }
+    .row.margin-top-gap .col-md-6 {
+    margin-left: 111px;
+    }
+    h1.grey-title.text-center.big-font {
+    font-size: 14em;
+    }
+    section.testimonial h2 {
+    width: 61%;
+    margin: 0 auto;
+    }
+    section.container-wrapper.mobile img.img-responsive {
+    height: 580px;
+    margin: 0 auto;
+    }
 }
